@@ -112,7 +112,6 @@ def play_wordle(secret):
     secret = 'asset'
     MAX_ATTEMPTS = 6
     attempts = 0
-    green, yellow, gray = set(), set(), set()
     while attempts < MAX_ATTEMPTS:
         guess = get_player_guess()
 
